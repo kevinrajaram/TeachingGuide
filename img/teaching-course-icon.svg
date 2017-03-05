@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="145" viewBox="0 0 177 145">
+  <defs>
+    <rect id="a" width="138" height="82"/>
+    <mask id="d" width="138" height="82" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <ellipse id="f" cx="15.064" cy="15.065" rx="15.064" ry="15.065"/>
+    <filter id="e" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+    </filter>
+    <path id="b" d="M9.9475983e-14,3 C9.9475983e-14,1.34314575 1.34735794,-1.77635684e-15 3.00039696,-1.77635684e-15 L17.9259259,-1.77635684e-15 L17.9259259,6 L3.00039696,6 C1.34332348,6 9.9475983e-14,4.65348288 9.9475983e-14,3 L9.9475983e-14,3 Z"/>
+    <mask id="g" width="17.926" height="6" x="0" y="0" fill="white">
+      <use xlink:href="#b"/>
+    </mask>
+    <polygon id="c" points="21.796 3 17.722 5.143 17.722 .857"/>
+    <mask id="h" width="5.114" height="5.326" x="-.52" y="-.52">
+      <rect width="5.114" height="5.326" x="17.202" y=".337" fill="white"/>
+      <use fill="black" xlink:href="#c"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <ellipse cx="112.979" cy="80.974" fill="#B2B2B2" fill-opacity=".11" rx="64.021" ry="64.026"/>
+    <ellipse cx="64.021" cy="64.026" fill="#5E90FF" fill-opacity=".13" rx="64.021" ry="64.026"/>
+    <use fill="#FFFFFF" stroke="#8993A7" stroke-opacity=".66" stroke-width="2.8" mask="url(#d)" transform="translate(15 33)" xlink:href="#a"/>
+    <rect width="144.926" height="2.5" x="11.306" y="115.5" fill="#A5ADBB"/>
+    <rect width="74" height="2" x="27" y="52" fill="#F58C76"/>
+    <rect width="74" height="1" x="27" y="62" fill="#F58C76"/>
+    <rect width="74" height="4" x="27" y="71" fill="#5E90FF"/>
+    <rect width="74" height="4" x="27" y="83" fill="#D4D4D4"/>
+    <rect width="74" height="4" x="27" y="95" fill="#F58C76"/>
+    <g transform="translate(128 18)">
+      <use fill="black" filter="url(#e)" xlink:href="#f"/>
+      <use fill="#5E90FF" xlink:href="#f"/>
+      <ellipse cx="16.606" cy="18.141" fill="#5483EC" rx="11.564" ry="11.565"/>
+    </g>
+    <text fill="#000000" font-family="ProximaNova-Regular, Proxima Nova" font-size="3">
+      <tspan x="27" y="43">MM/DD/YYYY</tspan>
+    </text>
+    <rect width="25" height="25" x="118" y="51" fill="#DEDEDE"/>
+    <ellipse cx="123.5" cy="72.5" fill="#ADADAD" rx="9.5" ry="9.5"/>
+    <polygon fill="#B1B8C5" points="15.332 114 152.573 114 156.232 115.5 11.306 115.5"/>
+    <g transform="rotate(-43 116.849 -150.32)">
+      <g transform="rotate(-180 11 3)">
+        <use fill="#F58C76" stroke="#8B94A6" stroke-width="1.2" mask="url(#g)" xlink:href="#b"/>
+        <use fill="#FFFFFF" xlink:href="#c"/>
+        <use stroke="#8B94A6" stroke-width="1.04" mask="url(#h)" xlink:href="#c"/>
+      </g>
+      <path stroke="#FFFFFF" stroke-linecap="square" stroke-width=".5" d="M5.05185185 1.97142857L18.0074074 1.97142857M5.05185185 4.11428571L14.8771028 4.11428571"/>
+    </g>
+  </g>
+</svg>

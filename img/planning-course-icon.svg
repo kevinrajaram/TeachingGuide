@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="145" viewBox="0 0 177 145">
+  <defs>
+    <rect id="a" width="138.085" height="81.602" rx="16"/>
+    <mask id="b" width="138.085" height="81.602" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <ellipse id="c" cx="15.064" cy="15.065" rx="15.064" ry="15.065"/>
+    <filter id="d" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <ellipse cx="112.979" cy="80.974" fill="#B2B2B2" fill-opacity=".11" rx="64.021" ry="64.026"/>
+    <ellipse cx="64.021" cy="64.026" fill="#5E90FF" fill-opacity=".13" rx="64.021" ry="64.026"/>
+    <g transform="translate(15.064 32.013)">
+      <use fill="#F2F4F7" stroke="#8993A7" stroke-opacity=".66" stroke-width="2.8" mask="url(#b)" xlink:href="#a"/>
+      <g transform="translate(10.67 9.416)">
+        <rect width="14.672" height="6.905" fill="#5E90FF"/>
+        <rect width="89.722" height="28.247" y="22.597" fill="#D3D3D3"/>
+        <rect width="89.722" height="6.905" y="54.61" fill="#D3D3D3"/>
+        <rect width="25.393" height="38.918" x="91.979" y="22.597" fill="#E5E5E5"/>
+        <rect width="117.372" height="4.394" y="11.926" fill="#D4D4D4"/>
+      </g>
+    </g>
+    <g transform="translate(128.043 17.576)">
+      <path fill="#FFFFFF" stroke="#717171" d="M5.968189,30.1072258 C5.84184622,31.7487053 6.5117423,32.7133698 6.5117423,32.7133698 C7.23029303,34.4842587 9.36497287,35.9441954 11.2803237,35.9742396 L18.228564,36.0832297 C20.1436281,36.1132693 22.3255245,34.7130612 23.0662302,32.9521582 C23.0662302,32.9521582 23.3253667,32.5493645 23.8636968,30.8003411 C24.4020269,29.0513176 6.09453177,28.4657463 5.968189,30.1072258 Z"/>
+      <path fill="#FFFFFF" stroke="#717171" d="M5.64641165,25.4330315 L5.94255423,30.5097317 C5.94255423,30.5097317 10.0648625,32.9042651 15.6136968,32.7054924 C18.2871084,32.6097243 22.0128366,31.9740028 23.9208257,30.5097317 L24.1605718,26.4135002 L5.64641165,25.4330315 Z"/>
+      <mask id="e" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="black" filter="url(#d)" xlink:href="#c"/>
+      <use fill="#F58C76" xlink:href="#c"/>
+      <ellipse cx="18.564" cy="18.565" fill="#EB6D53" mask="url(#e)" rx="11.564" ry="11.565"/>
+    </g>
+    <path stroke="#F58C76" stroke-linecap="square" stroke-width="2" d="M161,23.363961 L166,19"/>
+    <path stroke="#F58C76" stroke-linecap="square" stroke-width="2" d="M121.363961,21.363961 L125.727922,17" transform="matrix(-1 0 0 1 247.728 0)"/>
+  </g>
+</svg>

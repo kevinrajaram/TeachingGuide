@@ -9,3 +9,14 @@ $WMLtblue:   #F5F7F9;
 $WMLtgrey:   #E4E4E4;
 
 $body-font: 'Proxima Nova', sans-serif;
+
+$containerWidth: 1200px;
+
+/* Mixins */
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

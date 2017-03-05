@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="145" viewBox="0 0 177 145">
+  <defs>
+    <rect id="a" width="138.085" height="81.602" rx="16"/>
+    <mask id="b" width="138.085" height="81.602" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <ellipse id="d" cx="15.064" cy="15.065" rx="15.064" ry="15.065"/>
+    <filter id="c" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <ellipse cx="112.979" cy="80.974" fill="#B2B2B2" fill-opacity=".11" rx="64.021" ry="64.026"/>
+    <ellipse cx="64.021" cy="64.026" fill="#5E90FF" fill-opacity=".13" rx="64.021" ry="64.026"/>
+    <g transform="translate(15.064 32.013)">
+      <use fill="#F2F4F7" stroke="#8993A7" stroke-opacity=".66" stroke-width="2.8" mask="url(#b)" xlink:href="#a"/>
+      <g transform="translate(10.67 9.416)">
+        <rect width="14.672" height="6.905" fill="#5E90FF"/>
+        <rect width="89.722" height="6.905" y="54.61" fill="#D3D3D3"/>
+        <rect width="25.393" height="38.918" x="91.979" y="22.597" fill="#E5E5E5"/>
+        <rect width="117.372" height="4.394" y="11.926" fill="#D4D4D4"/>
+      </g>
+    </g>
+    <g transform="translate(128.043 17.576)">
+      <use fill="black" filter="url(#c)" xlink:href="#d"/>
+      <use fill="#5E90FF" xlink:href="#d"/>
+      <ellipse cx="16.564" cy="18.565" fill="#5483EC" rx="11.564" ry="11.565"/>
+      <g fill="#FFFFFF" transform="translate(13.457 6.424)">
+        <rect width="3" height="11" y="6" rx="1.5"/>
+        <ellipse cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
+      </g>
+    </g>
+    <rect width="61" height="3" x="26" y="64" fill="#5E90FF"/>
+    <rect width="75" height="3" x="26" y="70" fill="#F58C76"/>
+    <rect width="34" height="3" x="26" y="76" fill="#5E90FF"/>
+    <rect width="45" height="3" x="26" y="82" fill="#F58C76"/>
+  </g>
+</svg>
