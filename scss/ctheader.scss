@@ -1,0 +1,159 @@
+/* City Tech Header Styles */
+
+.ct_header{
+  background: $WMBlue;
+}
+
+.ct__topbar {
+  background: $WMBlue;
+  border-top: 8px solid $ctBlue;
+  height: 40px;
+  position: relative;
+  top: 0;
+  z-index: 2;
+
+  nav{
+    background-color: #214971;
+    padding: 0 8px;
+    float: right;
+
+    ul{
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+
+      > li{
+        display: inline-block;
+        padding: 2px 0 3px 0;
+      }
+
+      > li:not(:last-of-type):after{
+        content: "/";
+        display: inline-block;
+        font-size: 14px;
+        padding: 0 4px 0 10px;
+        color: white;
+      }
+
+      a{
+        font-size: 13px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        transition: color 200ms ease-in-out;
+
+      &:hover{
+        color: $ctYellow;
+      }
+      }
+    }
+  }
+}
+
+.ct__navbar {
+  background: rgba(1, 1, 1, 0.45);
+  height: 100px;
+  position: relative;
+  margin-top: 10px;
+
+  .ct_logo{
+    margin: 15px 0 0 0;
+    float: left;
+    width: 20%;
+  }
+
+  .ct_nav{
+    padding: 0 8px;
+    float: right;
+    text-align: right;
+    max-width: 80%;
+
+    > ul{
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+
+      > li{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+
+        .dropdown-menu{
+            background: #2c3137;
+				    position: absolute;
+				    left: auto;
+				    right: auto;
+				    top: 100px;
+				    z-index: 2;
+				    text-align: left;
+				    display: none;
+				    overflow: auto;
+				    min-width: 250px;
+				    margin: 0;
+				    
+				  ul{margin: 0;padding: 10px;list-style: none; li{
+					  margin: 0;
+				  }}
+
+          h3{
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 5px;
+            padding: 5px 15px 5px 15px;
+          }
+
+          a{
+            text-transform: none;
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff;
+            padding: 5px 15px 5px 15px;
+            display: block;
+            transition: color 200ms ease-in-out;
+            border: 0;
+
+          &:hover{
+            color: $ctYellow;
+            background: #272E33;
+            border: 0;
+
+            &::before{
+              display: none;
+            }
+          }
+          }
+          
+           li{
+					  margin: 0;
+				  }
+        }
+        
+       .mega{width: 100%; left: 0;}
+        
+
+      &:hover .dropdown-menu{
+        display: block;
+      }
+      }
+
+      a{
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        padding: 40px 20px;
+        transition: color 200ms ease-in-out;
+
+      &:hover{
+        color: $ctYellow;
+      }
+      }
+
+    }
+  }
+}
